@@ -1,14 +1,31 @@
 @charset "UTF-8";
-header{
-    background-color: black;
-    height: 200px;
-    margin: -25px;
+
+*{
+    padding: 0px;
+    margin: 0px;
 }
 
-.titulo1{
-    color: white;
+html, body{
+    min-height: 100vh;
+} 
+
+header{
+    background-color: black;
+    margin: -25px;
     text-align: center;
-    padding-top: 35px;
+    color: white;
+}
+
+
+
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header p{
+    padding-bottom: 50px;
+    font-variant: normal;
 }
 
 a{
@@ -22,8 +39,33 @@ a:hover{
 }
 
 main{
-    margin-top: 50px;
-    padding-left: 50px;
-    font-size: 1.60em;
-    line-height: 55px;
+    
+}
+
+section{
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.imagem{
+    background-color: white;
+}
+
+.imagem p{
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 300px;
+}
+
+.normal{
+    background-color: rgb(73, 65, 65);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
