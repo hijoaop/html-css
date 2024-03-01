@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de esportes</title>
+    <style>
+        h1{
+            font-size: 1em;
+
+        }
+
+        p{
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <h1>selecione suas caracteristicas</h1>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Sexo</legend>
+                <p>
+                        <input type="radio" name="sexo" id="isexf">
+                        <label for="isexf">Feminino</label>
+        
+                </p>
+                <p>
+                    <input type="radio" name="sexo" id="isexm">
+                    <label for="sexo">Masculino</label>
+                </p>
+        </fieldset>
+        <fieldset>
+            <legend>Esporte</legend>
+                <p>
+                    <input type="checkbox" name="fut" id="ifut">
+                    <label for="ifut">Futebol</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="vol" id="ivol">
+                    <label for="ivol">Volei</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="bask" id="ibask">
+                    <label for="ibask">Basquete</label>
+                </p>
+        </fieldset>
+        <fieldset>
+            <legend>Dados</legend>
+                <p>
+                    <label for="iemail">E-mail</label>
+                    <input type="email" name="email" id="iemail" required>
+                </p>
+                <p>
+                     <label for="itel">Telefone</label>
+                    <input type="tel" name="tel" id="itel" required placeholder="(xx)xxxxx-xxxxx">
+        
+                </p>
+        </fieldset>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
+
+    
+</body>
+</html>
