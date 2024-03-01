@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* Estilos para impressora*/
+
+menu{
+    display: none;
+}
+
+html, body{
+    line-height: 1.5em;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main::after{
+    content: "Site desenvolvido por joão pedro para o www.cursoemvideo.com.br";
+}
