@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* estilo para dispositivo em pe(retrato)*/
+
+html, body{
+    background-image: url(../img/cev-portrait.jpg);
+    background-position: center bottom;
+}
