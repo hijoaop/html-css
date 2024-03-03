@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/*Demais midias*/
+
+@media print {
+    body{
+        background: url(../imagens/back-print.jpg);
+    }
+
+    main{
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 2px solid black;
+        text-align: center;
+    }
+
+    main:after{
+        content: este é o modelo para impresao desenvovido por joao pedro;
+        text-decoration: overline;
+    }
+
+    img#pc{display: none;}
+    img#print{display: block;}
+    img#tv{display: none;}
+    img#tell{display: none;}
+    img#tablet{display: none;}
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background: black url(../imagens/back-tablet.jpg) !important;
+        background-position: center center ;
+    }
+    img#pc{display: none;}
+    img#print{display: none;}
+    img#tv{display: none;}
+    img#tell{display: none;}
+    img#tablet{display: block;}
+}
+
+@media  screen and (min-width: 993px) and (max-width: 1200px) {
+    body{
+        background: url(../imagens/back-pc.jpg);
+        background-position: center  center;
+    }
+    img#pc{display: block;}
+    img#print{display: none;}
+    img#tv{display: none;}
+    img#tell{display: none;}
+    img#tablet{display: none;}
+    
+}
+
+@media screen and (min-width:1201px) {
+    body{
+        background: url(../imagens/back-tv.jpg);
+        background-position: center center;
+    }
+    img#pc{display: none;}
+    img#print{display: none;}
+    img#tv{display: block;}
+    img#tell{display: none;}
+    img#tablet{display: none;}
+    
+}

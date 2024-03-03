@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*Midias Gerais*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+body{
+    background: black url(../imagens/back-phone.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.726);
+    height: 70vh;
+    width: 80vw;
+    padding: 5px;
+    margin: 10px auto;
+    display: block;
+    color: rgba(255, 255, 255, 0.822);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.404);
+    border-radius: 16px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+}
+
+main img{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+img#pc{display: none;}
+img#print{display: none;}
+img#tv{display: none;}
+img#tell{display: block;}
+img#tablet{display: none;}
